@@ -32,15 +32,4 @@ public class CollisionHandler : MonoBehaviour
             movePlayer.collectedJumpEnabler = true;
         }
     }
-
-    /*private void OnCollisionEnter2D(Collision2D collision)
-    {
-        GameObject player = GameObject.Find("Player");
-        MovePlayer movePlayer = player.GetComponent<MovePlayer>();
-
-        if (gameObject.name == "Tilemap_Base")
-        {
-            movePlayer.canJump = true;
-        }
-    }*/
 }
